@@ -6,5 +6,7 @@ This project investigates the optimal experimental design for measuring thermal 
 4. Provide a basis for future work regarding useful mathematical models and uncertainty quantification techniques
 
 This project will apply appropriate mathematical models to the skin models produced in the first sub-project. The computational models will be written in Python using suitable numerical solvers. The first model will be a 1D, one-layer model solved using an explicit finite difference scheme and checked against a validated solution. Later models will adopt a finite element method to solve the model due to the robustness of the solver.
+
 The mathematical model will then attempt to estimate the known thermal diffusivity from the model using optimisation techniques. Since the true value is known, the parameter value accuracy of each model will be known. Thus, this, in conjunction with uncertainty analysis, will indicate which design gives the most accurate parameter estimates.
+
 Building on the Simpson (2018) study, the model will incorporate experimental variability through comprehensive uncertainty quantification.
